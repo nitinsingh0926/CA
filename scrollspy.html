@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=devide-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Share Bazar</title>
+      <style>
+          .container{
+              margin-bottom: 60px;
+          }
+          #firstpart .search{
+              margin-left: 700px;
+          }
+          #firstpart {
+              background-color: antiquewhite;
+              padding-top: 10px;
+              padding-bottom: 10px;
+          }
+          #firstpart button{
+              margin-left: 50px ;
+          }
+          #secondpart img{
+              margin-right: 780px;
+          }
+          #secondpart button{
+              margin-right: 20px;
+              padding: 10px;
+          }
+          .affix{
+              top: 0;
+              width: 100%;
+              z-index: 9999 !important;
+          }
+          .affix+container{
+              padding-top: 100px;
+          }
+          #ul li{
+              margin-right: 100px;
+          }
+          .carousel-inner img {
+               width: 100%;
+               height: 50%;
+           }
+          .prog{
+              width: 50%;
+              margin: auto;
+              border: 1px solid;
+          }
+      </style>
+  </head>
+  <body>
+    
+      <marquee>
+      <div class="alert alert-success alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Free Brokerage!</strong> Open a demat account with upstox and enjoy free brokerage charges for 3 months.<a href="#" class="alert-link">Click here to open now!</a>.
+</div></marquee>
+   
+      <div  class="container-fluid" id="firstpart">
+          <button class="btn btn-success btn-lg" data-toggle="tooltip" title="Buy Share of equity" data-placement="bottom">Buy</button>
+      <button class="btn btn-danger btn-lg" data-toggle="tooltip" title="Sell Share of equity" data-placement="bottom">Sell</button> 
+            <span class="glyphicon glyphicon-search search"></span>
+          <input type="search" placeholder="serach">
+               <a href="#">
+          <span class="glyphicon glyphicon-user"></span>
+        </a>
+          
+      </div>
+      <div class="prog">
+     <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">90% (90,000/-) <label>Total Investment of protfolio (1,00,000/-)</label>
+</div>
+
+          </div>
+          <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">30% (30,000/-) <label>Total profit on Investment</label>
+</div>
+
+</div>
+</div>
+
+
+      
+    <div class="container" style="height:100px" id="secondpart">
+      <img src="moneycontrol.png" data-toggle="popover" data-trigger="hover" title="Money Control"  data-content="moneycontrol.com today gets over 17 million visitors every month across all its platforms-web, mobile and tablets that makes it the largest online financial platform in India. But while we've radically changed and evolved, the belief and passion to be the best and the most insightful hasn't. That, we hope, keeps us ticking. This we believe is merely the start of our journey.">
+        <button class="btn btn-info" data-toggle="tooltip" title="Open a demat account with upstox and enjoy free brokerage charges for 3 months." data-placement="bottom">Subscribe</button>
+         
+        
+      </div>
+      
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset="70">
+      <ul class="nav navbar-nav">
+    <li class="active"><a href="#">Muhurat Trading</a></li>
+          <li data-toggle="tooltip" title="Opens global Markets" data-placement="bottom"><a href="#">Markets</a></li>
+          <li><a href="#">News<span class="caret"></span></a></li>
+          <li><a href="#">Portfolio<span class="caret"></span></a></li>
+          <li><a href="#">Commodities<span class="caret"></span></a></li>
+          <li><a href="#">Mutual Funds<span class="caret"></span></a></li><li><a href="#">Invest Now<span class="caret"></span></a></li>
+          <li data-toggle="popover" data-trigger="hover" title="Top Gainer" data-placement="right" data-content="Gainers are the stocks that tend to close with a higher price than what they opened with/their previous close price in an intraday market. If they are a part of any indices, the market indices shoot up."><a>Top Gainers</a></li>
+          <li data-toggle="tooltip" title=" Direct Upstox" data-placement="bottom"><a href="#">Open Upstox </a></li>
+          <li data-toggle="popover" title="CDSL" data-placement="bottom" data-trigger="focus" data-content="Central Depository Services Ltd, is the first listed Indian central securities depository based in Mumbai. Central Depository Services Limited was initially promoted by the BSE Ltd. which thereafter divested its stake to leading banks."><a href="#" >Open central Depositery </a></li>
+          
+          
+    </ul>
+      </nav> 
+      
+      
+      
+      <marquee>
+      <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav" id="ul">
+          <li data-toggle="popover" title="CDSL" data-placement="right" data-trigger="Sensex" data-content="Sensex is down by 0.76% comparing to yestraday closing price due to US market closing in red."><a href="#" >Sensex:<span class="caret"></span> -59894 (-0.76%)</a></li>
+          <li><a href="#">Nifty Bank:<span class="caret"></span>-291</a></li>
+          <li><a href="#">Nifty Midcap 100: -450<span class="caret"></span> (-0.38%)</a></li>
+          <li><a href="#">Nifty Smallcap 500: -250<span class="caret"></span> (-0.28%)</a></li>
+    </ul>
+      </nav> </marquee>
+
+      <div class="container" >
+<h2>Latest News <a data-toggle="modal" data-target="#myModal">Click Here to read</a></h2>
+<!-- Trigger the modal with a button -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+<div class="modal-dialog">
+
+<!-- Modal content-->
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title">Sail ltd.</h4>
+</div>
+<div class="modal-body">
+<p>SAIL's board also declared interim dividend of ₹4 per equity share for FY22. ... 10/- each 40% of the paid-up equity share capital of the Company). The record date for the purpose of payment of Interim Dividend is 10th November. 2021," it said. 
+    </p>
+    <div class="alert alert-success alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Free Brokerage! </strong> To enjoy this dividend open a demat account with upstox and enjoy free brokerage charges for 3 months.<a href="#" class="alert-link">Click here to open now!</a>.
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+    
+    <div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title">Hindustan Uniliver ltd</h4>
+</div>
+<div class="modal-body">
+<p>Even as Nifty50 was trading lower in Tuesday's trade, as many as 150 NSE listed stocks, including Infosys, Hindustan Unilever (HUL) and Tech Mahindra (TechM), were sending 'buy' signals on MACD or moving average convergence divergence chart.
+</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+      
+<div id="my-pics" class="carousel slide" data-ride="carousel" style="width:600px;margin:auto;">
+
+
+<ol class="carousel-indicators">
+<li data-target="#my-pics" data-slide-to="0" class="active"></li>
+<li data-target="#my-pics" data-slide-to="1"></li>
+<li data-target="#my-pics" data-slide-to="2"></li>
+</ol>
+
+
+<div class="carousel-inner" role="listbox">
+
+
+<div class="item active">
+<img src="share.jpg">
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+<div class="item">
+<img src="bus.jpg">
+<div class="carousel-caption">
+</div>
+</div>
+
+
+<div class="item">
+<img src="sellandbuy.jpg">
+<div class="carousel-caption">
+</div>
+</div>
+
+</div>
+
+
+<a class="left carousel-control" href="#my-pics" role="button" data-slide="prev" >
+<span class="icon-prev" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+<span class="icon-next" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+
+</div>
+      
+      <div class="container">
+          <h1 >Top Gainers</h1>
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Company</th>
+      <th scope="col">Price</th>
+      <th scope="col">Change (IN %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>CDSL</td>
+      <td>1457.89</td>
+      <td>+3</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>SAIL</td>
+      <td>118</td>
+      <td>-0.38 </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>AMBUJA CEMENT</td>
+      <td>423</td>
+      <td>-4</td>
+    </tr>
+      <tr>
+      <th scope="row">4</th>
+      <td>BSE</td>
+      <td>1298</td>
+      <td>-2</td>
+    </tr>
+      <tr>
+      <th scope="row">5</th>
+      <td>EMKAY</td>
+      <td>560</td>
+      <td>+7</td>
+    </tr>
+      <tr>
+      <th scope="row">6</th>
+      <td>BSOFTT</td>
+      <td>415</td>
+      <td>-1</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+       <div class="container">
+        <h1>Top Loser</h1>
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Company</th>
+      <th scope="col">Price</th>
+      <th scope="col">Change (IN %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>DMart</td>
+      <td>4557.90</td>
+      <td>-9</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>INDIAN MART</td>
+      <td>3348</td>
+      <td>-0.18 </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>PIDILITD</td>
+      <td>1689</td>
+      <td>-4.53</td>
+    </tr>
+      <tr>
+      <th scope="row">4</th>
+      <td>TATA MOTORS</td>
+      <td>515</td>
+      <td>-2</td>
+    </tr>
+      <tr>
+      <th scope="row">5</th>
+      <td>VEDL</td>
+      <td>321</td>
+      <td>-5.12</td>
+    </tr>
+      <tr>
+      <th scope="row">6</th>
+      <td>MARICO</td>
+      <td>455</td>
+      <td>-1.89</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+      
+    <div class="container" style="height:1000px">
+        <h1><B>TRANDING NEWS</B> </h1>
+      <p>
+        lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <U>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</U> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lore
+        </p>
+        <p>
+        lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <details>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lore</details>
+        </p>
+        <p>
+        lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lore
+            <p>
+        lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lore
+        </p>
+        
+      </div>
+      
+      
+       <script>
+    $(document).ready(
+        function()
+    {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+           
+           
+           $(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+    </script>
+      
+  </body>
+</html>
